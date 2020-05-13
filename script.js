@@ -5,23 +5,22 @@ var imagepos;
 function timer() {
     carosuel1();
     carosuel2();
-    checkInput();
 }
 
 function carosuel1() {
     imagepos = document.getElementById("pyImg").src;
     console.log(imagepos)
-    if (imagepos == ".assets/python1a.JPG") {
-        document.getElementById("pyImg").src = ".assets/python1b.JPG";
+    if (imagepos == "assets/python1a.JPG") {
+        document.getElementById("pyImg").src = "assets/python1b.JPG";
     }
-    else if (imagepos == ".assets/python1b.JPG") {
-        document.getElementById("pyImg").src = ".assets/python2a.JPG";
+    else if (imagepos == "assets/python1b.JPG") {
+        document.getElementById("pyImg").src = "assets/python2a.JPG";
     }
-    else if (imagepos == ".assets/python2a.JPG") {
-        document.getElementById("pyImg").src = ".assets/python2b.JPG";
+    else if (imagepos == "assets/python2a.JPG") {
+        document.getElementById("pyImg").src = "assets/python2b.JPG";
     }
     else {
-        document.getElementById("pyImg").src = ".assets/python1a.JPG";
+        document.getElementById("pyImg").src = "assets/python1a.JPG";
         console.log("else");
     }
 }
@@ -29,28 +28,28 @@ function carosuel1() {
 function carosuel1L(){
     imagepos = document.getElementById("pyImg").src;
 
-    if (imagepos == "https://github.com/AChu-Dev/A-Chu-Dev.github.io/blob/master/assets/python1a.JPG") {
-        document.getElementById("pyImg").src = "https://github.com/AChu-Dev/A-Chu-Dev.github.io/blob/master/assets/python2b.JPG";
+    if (imagepos == "assets/python1a.JPG") {
+        document.getElementById("pyImg").src = "assets/python2b.JPG";
     }
-    else if (imagepos == "https://github.com/AChu-Dev/A-Chu-Dev.github.io/blob/master/assets/python2b.JPG") {
-        document.getElementById("pyImg").src = "https://github.com/AChu-Dev/A-Chu-Dev.github.io/blob/master/assets/python2a.JPG";
+    else if (imagepos == "github.io/blob/master/assets/python2b.JPG"){
+        document.getElementById("pyImg").src = "assets/python2a.JPG";
     }
-    else if (imagepos == "https://github.com/AChu-Dev/A-Chu-Dev.github.io/blob/master/assets/python2a.JPG") {
-        document.getElementById("pyImg").src = "https://github.com/AChu-Dev/A-Chu-Dev.github.io/blob/master/assets/python1b.JPG";
+    else if (imagepos == "assets/python2a.JPG") {
+        document.getElementById("pyImg").src = "python1b.JPG";
     }
     else {
-        document.getElementById("pyImg").src = "https://github.com/AChu-Dev/A-Chu-Dev.github.io/blob/master/assets/python1a.JPG";
+        document.getElementById("pyImg").src = "assets/python1a.JPG";
     }
 }
 
 function carosuel2() {
     imagepos = document.getElementById("oopImg").src;
 
-    if (imagepos == "https://achu-dev.github.io/A-Chu-Dev.github.io/assets/oop1a.jpg") {
-        document.getElementById("oopImg").src = "https://achu-dev.github.io/A-Chu-Dev.github.io/assets/oop1b.jpg";
+    if (imagepos == "assets/oop1a.jpg") {
+        document.getElementById("oopImg").src = "assets/oop1b.jpg";
     }
     else {
-        document.getElementById("oopImg").src = "https://achu-dev.github.io/A-Chu-Dev.github.io/assets/oop1a.jpg";
+        document.getElementById("oopImg").src = "assets/oop1a.jpg";
     }
 }
 
