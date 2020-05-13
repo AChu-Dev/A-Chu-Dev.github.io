@@ -14,7 +14,7 @@ function carosuel1() {
     if (imagepos == ".assets/python1a") {
         document.getElementById("pyImg").src = ".assets/python1b.JPG";
     }
-    else if (imagepos == "..assets/python1b.JPG") {
+    else if (imagepos == ".assets/python1b.JPG") {
         document.getElementById("pyImg").src = ".assets/python2a.JPG";
     }
     else if (imagepos == ".assets/python2a.JPG") {
