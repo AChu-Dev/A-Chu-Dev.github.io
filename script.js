@@ -1,6 +1,6 @@
 var imagepos;
 
-//window.setInterval(timer, 4000);
+window.setInterval(timer, 4000);
 
 function timer() {
     carosuel1();
