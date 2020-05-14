@@ -217,7 +217,7 @@ input[type="submit"]{
   }
   #survey-form, input[type="text"],input[type="email"],input[type="tel"]{
     font-size: 1em;
-    width : 80%;
+    width : 99%;
     float:left;
   }
 }
