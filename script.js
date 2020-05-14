@@ -53,10 +53,10 @@ function carosuel2() {
 }
 
 function checkInput(){
-    var name = document.getElementById("name");
-    var email = document.getElementById("email");
-    var number = document.getElementById("ph_number");
-    var comment = document.getElementById("comment_textbox");
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var number = document.getElementById("ph_number").value;
+    var comment = document.getElementById("comment_textbox").value;
     console.log(name)
     console.log(email)
     console.log(number)
