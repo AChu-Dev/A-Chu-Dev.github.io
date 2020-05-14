@@ -91,10 +91,10 @@ a {
   align-self: center;
 }
 #contactBut_Border{
-  width:100%;
-  height: auto;
+  width: 100%;
   background-color: var(--primary-d);
-  padding:2%
+  padding-bottom: 9%;
+  padding-top: 1%;
 }
 
 .contactBut img {
