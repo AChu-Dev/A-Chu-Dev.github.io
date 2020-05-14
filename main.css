@@ -90,7 +90,7 @@ a {
   display: block;
   align-self: center;
 }
-.contactBut_Border{
+#contactBut_Border{
   width:75%;
   background-color: var(--primary-d);
   padding:2%

@@ -1,170 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=#, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <script src="script.js"></script>
-    <title>Portfolio | Adam, Chu, Software, Engineer </title>
-</head>
+    <title>Portfolio | Adam, Chu, Software, Engineer</title>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <nav>
-            <ul>
-                <li><a href="#section2">Python</a></li>
-                <li><a href="#section3">Web Languages</a></li>
-                <li><a href="#section4">C++ & Java</a></li>
-            </ul>
-        </nav>
-        <section id="section1">
-            <h2>Introduction</h2>
-            <p>
-                My Name is Adam Chu a First Year Software Engineering Student at
-                Solent University.
-            </p>
-            <p>
-                I created this portfolio to show the programs that I have created at
-                College and University, I felt doing this would refresh the languages
-                that I have used previously as well as promote myself. In this
-                portfolio I chose projects that where for specific task like
-                Assessements or private tasks that I have taken outside of education.
-            </p>
-            <p>
-                The langauges I have used are:
-            </p>
+      <nav>
+        <ul>
+          <li><a href="#section2">Python</a></li>
+          <li><a href="#section3">Web Languages</a></li>
+          <li><a href="#section4">C++ & Java</a></li>
+        </ul>
+      </nav>
+      <section id="section1">
+        <h2>Introduction</h2>
+        <p>
+          My Name is Adam Chu a First Year Software Engineering Student at
+          Solent University.
+        </p>
+        <p>
+          I created this portfolio to show the programs that I have created at
+          College and University, I felt doing this would refresh the languages
+          that I have used previously as well as promote myself. In this
+          portfolio I chose projects that where for specific task like
+          Assessements or private tasks that I have taken outside of education.
+        </p>
+        <p>
+          The langauges I have used are:
+        </p>
 
-            <ul>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>PHP</li>
-                <li>HTML 5/JS/CSS</li>
-                <li>Java</li>
-            </ul>
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>PHP</li>
+          <li>HTML 5/JS/CSS</li>
+          <li>Java</li>
+        </ul>
 
-            <p>
-                Mainly when contacting me I use tools like: LinkedIn, Twitter & I also use GitHub to store my source code:
-            </p>
-            <div class="contactBut">
-               <a href="https://github.com/AChu-Dev" target="_blank"><img
-                            src="assets/github.png" alt="GitHub"></a>
-                <a href="https://www.linkedin.com/in/adam-chu-3b3b91193/" target="_blank"><img
-                            src="assets/linkedin.png" alt="LinkedIn"></a>
-                <a href="https://twitter.com/AChuDev2" target="_blank"><img
-                            src="assets/twitter.png" alt="Twitter"></a>
+        <p>
+          Mainly when contacting me I use tools like: LinkedIn, Twitter & I also
+          use GitHub to store my source code:
+        </p>
+        <div id="contactBut_Border">
+          <div class="contactBut">
+            <a href="https://github.com/AChu-Dev" target="_blank"
+              ><img src="assets/github.png" alt="GitHub"
+            /></a>
+
+            <a
+              href="https://www.linkedin.com/in/adam-chu-3b3b91193/"
+              target="_blank"
+              ><img src="assets/linkedin.png" alt="LinkedIn"
+            /></a>
+
+            <a href="https://twitter.com/AChuDev2" target="_blank"
+              ><img src="assets/twitter.png" alt="Twitter"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section id="section2">
+        <h2>Python</h2>
+        <p>
+          I used Python initally at College to text compression tasks which
+          would involve using a function to compress & decompress text inputted
+          via strings. When I did this task I did not know if I was allowed to
+          use the libary GZIP at the time so with help from a tutor we created a
+          compression algorithm.
+        </p>
+        <p>
+          So the concept is based around using enumerate and creates a unique
+          identifier based on each word with different identifiers if there is
+          capitalisation or punctuation. It then saves these lists under two
+          different files one contains a list with the positions of ach word
+          using the identifiers which are incrementing numbers. The other file
+          is a series of numbers which contains the words and the identifier in
+          a (#*2) list. The unzipping function reverses the process to create
+          the string and would recreate the original string by cross referencing
+          the lists.
+        </p>
+        <div class="border_div">
+          <img src="assets/python1a.JPG" alt="Python Carousel" id="pyImg" />
+          <div class="carosuel1M">
+            <button class="carosuelBut" onclick="carosuel1L()">Previous</button>
+            <button class="carosuelBut" onclick="carosuel1()">Next</button>
+          </div>
+        </div>
+      </section>
+      <section id="section3">
+        <h2>C++ & Java</h2>
+        <p>
+          This section of the website is focusing on the tasks that I have at
+          College and Uni, which revolved around Object Oriented Programming. In
+          the First Task (which was at College) I had to create a Command Line
+          application which was a Fruit Machine and it would be written in C++
+          and use COUT to create a UI and be easy to operate. The Second Task
+          was to create a Java Application using Swing to record and document
+          natural disasters under the classifications of: Snowstorm, Tornado &
+          Hurricane with the inputs being Windspeed and Temperature.
+        </p>
+        <div class="border_div">
+          <img src="assets/oop1a.JPG" alt="OOP Carousel" id="oopImg" />
+          <button id="nextBtn" class="carosuelBut" onclick="carosuel2()">
+            Next
+          </button>
+        </div>
+      </section>
+      <section id="section4">
+        <h2>Web Languages</h2>
+        <p>
+          This portfolio is a task for my first year Web Technologies and uses
+          HTML, CSS & JS in which I had to create a reactive website. I have
+          used the server side languages of PHP and Python before when dealing
+          with GET and POST requests as well as using PDO/MySQLi for Database
+          integration. Also I have done JavaScript based web games using the
+          Phaser API which has been embed below.
+        </p>
+        <section id="section4a">
+          <h3>PHP</h3>
+          <p>
+            In PHP I have mainly done database management and other Form
+            Management, whilst in the process of learning about the WordPress
+            Interface as it is still used for smaller businesses and their
+            Websites along with Magento for ecommerce sites.
+          </p>
+          <div class="border_div">
+            <img src="assets/php.JPG" alt="PHP Image" id="phpImg" />
+          </div>
+        </section>
+        <section id="section4b">
+          <h3>Phaser JS API</h3>
+          <p>
+            This Game was created for my final project in College and used
+            JavaScript to control, draw & manipulate sprites and this was used
+            to create a completely satire game about Donald Trump. I used the
+            concept behind Asteroid and created a version of it that ran on the
+            Phaser Game Engine, in retrospect I would have added a more
+            interactive story mode & new power ups that scale with the game. The
+            main problem with this project is that because its not created in
+            Unity or a better API I am limited by the use of JS.
+          </p>
+          <h4>Controls</h4>
+          <ul>
+            <li>Q & E for Roll</li>
+            <li>For Thrust it's W & S</li>
+            <li>Spacebar is fire</li>
+            <li>ESC is pause/unpause</li>
+          </ul>
+          <div id="phaser_div">
+            <iframe id="phaser_game" src="phaser_game/index.html"></iframe>
+            <img
+              id="phaser_alt"
+              src="assets/phaseralt.JPG"
+              alt="Phaser Game Image"
+            />
+          </div>
+          <h3>User Comments</h3>
+          <div id="user_form_border">
+            <div id="user_form">
+              <form
+                action="#"
+                name="survey-form"
+                method="post"
+                onsubmit="return checkInput()"
+              >
+                <fieldset>
+                  <legend>Contact Info</legend>
+                  <p>
+                    <label for="name">Name: </label
+                    ><input type="text" name="name" id="name" />
+                  </p>
+                  <p>
+                    <label for="email">Email:</label
+                    ><input type="email" name="email" id="email" />
+                  </p>
+                  <p>
+                    <label for="ph_number">Phone No.</label
+                    ><input type="tel" name="ph_number" id="ph_number" />
+                  </p>
+                </fieldset>
+                <fieldset>
+                  <legend>Comment</legend>
+                  <textarea
+                    name="comment_textbox"
+                    id="comment_textbox"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </fieldset>
+                <p><input type="submit" value="Submit" /></p>
+              </form>
             </div>
+          </div>
         </section>
-        <section id="section2">
-            <h2>Python</h2>
-            <p>
-                I used Python initally at College to text compression tasks which would involve using a function to
-                compress & decompress text
-                inputted via strings. When I did this task I did not know if I was allowed to use the libary GZIP at the
-                time so with help from
-                a tutor we created a compression algorithm.
-            </p>
-            <p>
-                So the concept is based around using enumerate and creates a unique identifier based on each word with
-                different identifiers if
-                there is capitalisation or punctuation. It then saves these lists under two different files one contains
-                a list with the positions of
-                ach word using the identifiers which are incrementing numbers. The other file is a series of numbers
-                which contains the words
-                and the identifier in a (#*2) list. The unzipping function reverses the process to create the string and
-                would recreate the original
-                string by cross referencing the lists.
-            </p>
-            <div class="border_div">
-                <img src="assets/python1a.JPG" alt="Python Carousel" id="pyImg">
-                <div class="carosuel1M">
-                    <button class="carosuelBut" onclick="carosuel1L()">Previous</button>
-                    <button class="carosuelBut" onclick="carosuel1()">Next</button>
-                </div>
-            </div>
-        </section>
-        <section id="section3">
-            <h2>C++ & Java</h2>
-            <p>
-                This section of the website is focusing on the tasks that I have at College and Uni, which revolved
-                around Object Oriented Programming. In the First Task
-                (which was at College) I had to create a Command Line application which was a Fruit Machine and it would
-                be written in C++ and use COUT to create a UI and be easy
-                to operate. The Second Task was to create a Java Application using Swing to record and document natural
-                disasters under the classifications of: Snowstorm, Tornado & Hurricane
-                with the inputs being Windspeed and Temperature.
-            </p>
-            <div class="border_div">
-                <img src="assets/oop1a.JPG" alt="OOP Carousel" id="oopImg">
-                <button id="nextBtn" class="carosuelBut" onclick="carosuel2()">Next</button>
-            </div>
-        </section>
-        <section id="section4">
-            <h2>Web Languages</h2>
-            <p>
-                This portfolio is a task for my first year Web Technologies and uses HTML, CSS & JS in which I had to
-                create a reactive website. I have used the server side
-                languages of PHP and Python before when dealing with GET and POST requests as well as using PDO/MySQLi
-                for Database integration. Also I have done JavaScript based
-                web games using the Phaser API which has been embed below.
-            </p>
-            <section id="section4a">
-                <h3>PHP</h3>
-                <p>
-                    In PHP I have mainly done database management and other Form Management, whilst in the process of
-                    learning about the WordPress Interface as it is
-                    still used for smaller businesses and their Websites along with Magento for ecommerce sites.
-                </p>
-                <div class="border_div">
-                    <img src="assets/php.JPG" alt="PHP Image" id="phpImg">
-                </div>
-            </section>
-            <section id="section4b">
-                <h3>Phaser JS API</h3>
-                <p>
-                    This Game was created for my final project in College and used JavaScript to control, draw &
-                    manipulate sprites and this was used to create a
-                    completely satire game about Donald Trump. I used the concept behind Asteroid and created a version
-                    of it that ran on the Phaser Game Engine,
-                    in retrospect I would have added a more interactive story mode & new power ups that scale with the
-                    game. The main problem with this project is that because
-                    its not created in Unity or a better API I am limited by the use of JS.
-                </p>
-                <h4>Controls</h4>
-                <ul>
-                    <li>Q & E for Roll</li>
-                    <li>For Thrust it's W & S</li>
-                    <li>Spacebar is fire</li>
-                    <li>ESC is pause/unpause</li>
-                </ul>
-                <div id="phaser_div">
-                    <iframe id="phaser_game" src="phaser_game/index.html"></iframe>
-                    <img id="phaser_alt" src="assets/phaseralt.JPG" alt="Phaser Game Image">
-                </div>
-                <h3>User Comments</h3>
-                <div id="user_form_border">
-                    <div id="user_form">
-                        <form action="#" name="survey-form" method="post" onsubmit="return checkInput()">
-                        <fieldset>
-                            <legend>Contact Info</legend>
-                            <p><label for="name">Name: </label ><input type="text" name="name" id="name"></p>
-                            <p><label for="email">Email:</label><input type="email" name="email" id="email"></p>
-                            <p><label for="ph_number">Phone No.</label><input type="tel" name="ph_number" id="ph_number"></p>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Comment</legend>
-                            <textarea name="comment_textbox" id="comment_textbox" cols="30" rows="10"></textarea>
-                        </fieldset>
-                        <p><input type="submit" value="Submit"></p>
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </section>
+      </section>
     </div>
-</body>
-
+  </body>
 </html>
