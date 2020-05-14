@@ -1,6 +1,6 @@
 var imagepos;
 
-window.setInterval(timer, 4000);
+window.setInterval(timer, 6000);
 
 function timer() {
     carosuel1();
@@ -20,7 +20,7 @@ function carosuel1() {
     }
     else {
         document.getElementById("pyImg").src = "assets/python1a.JPG";
-        console.log("else");
+        
     }
 }
 
@@ -53,10 +53,10 @@ function carosuel2() {
 }
 
 function checkInput(){
-    var name = document.forms["survey_form"]["name"].value;
-    var email = document.forms["survey_form"]["emails"].value;
-    var number = document.forms["survey_form"]["ph_number"].value;
-    var comment = document.forms["survey_form"]["comment_textbox"].value;
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var number = document.getElementById("ph_number");
+    var comment = document.getElementById("comment_textbox");
     console.log(name)
     console.log(email)
     console.log(number)
