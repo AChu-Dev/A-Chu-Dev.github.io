@@ -63,22 +63,18 @@ function checkInput(){
     console.log(comment)   
     if(name == ""){
         alert("Name Cannot Be Blank");
-        console.log(name)
         return false;
     }
     if(email == ""){
         alert("Email Cannot Be Blank");
-        console.log(email)
         return false;
     }
     if(number == ""){
         alert("Phone Number Cannot Be Blank");
-        console.log(number)
         return false;
     }
     if(comment == ""){
         alert("Comment cannot be blank");
-        console.log(comment)
         return false
     }
 }
