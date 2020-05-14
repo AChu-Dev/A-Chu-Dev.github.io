@@ -53,10 +53,10 @@ function carosuel2() {
 }
 
 function checkInput(){
-    var name = document.forms["user_form"]["name"].value;
-    var email = document.forms["user_form"]["emails"].value;
-    var number = document.forms["user_form"]["ph_number"].value;
-    var comment = document.forms["user_form"]["comment_textbox"].value;
+    var name = document.forms["survey_form"]["name"].value;
+    var email = document.forms["survey_form"]["emails"].value;
+    var number = document.forms["survey_form"]["ph_number"].value;
+    var comment = document.forms["survey_form"]["comment_textbox"].value;
     console.log(name)
     console.log(email)
     console.log(number)
