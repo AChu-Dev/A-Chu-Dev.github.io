@@ -56,7 +56,7 @@ function checkInput(){
     var name = document.forms["survey-form"]["name"].value;
     var email = document.forms["survey-form"]["email"].value;
     var number = document.forms["survey-form"]["ph_number"].value;
-    var comment = document.getElementById("comment_textbox").innerHTML;
+    var comment = document.forms["survey-form"]["comment_textbox"].value;
     console.log(name)
     console.log(email)
     console.log(number)
