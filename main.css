@@ -172,7 +172,7 @@ input[type="submit"]{
     font-size: 1.3em;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 540px) {
   body {
     font-size: 1.2em;
   }
@@ -201,9 +201,10 @@ input[type="submit"]{
     height: auto;
     margin: 1%;
   }
-  nav {
-    width: 100vw;
+  nav ul{
+    width: 100%;
     position: fixed;
+    top:0;
   }
   #nextBtn {
     margin-left: 0;
