@@ -10,7 +10,7 @@ function timer() {
 function carosuel1() {
     imagepos = document.getElementById("pyImg").src;
     console.log(imagepos)
-    if (imagepos == "assets/https://achu-dev.github.io/A-Chu-Dev.github.io/assets/python1a.JPG") {
+    if (imagepos == "https://achu-dev.github.io/A-Chu-Dev.github.io/assets/python1a.JPG") {
         document.getElementById("pyImg").src = "assets/python1b.JPG";
     }
     else if (imagepos == "assets/python1b.JPG") {
