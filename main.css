@@ -233,5 +233,7 @@ input[type="submit"]{
     padding-bottom:82%;
     padding-top:2%;
   }
-
+  nav a{
+    font-size: 1em;
+  }
 }
