@@ -159,6 +159,8 @@ a {
     background-color: var(--secondary-l);
     font-size: 1.1em;
     background-color: var(--secondary-l);
+    font-family: "Source Sans Pro", sans-serif !important;
+
 }
 
 input[type="submit"]{
