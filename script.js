@@ -19,10 +19,7 @@ function carosuel1() {
     else if (imagepos == "https://achu-dev.github.io/A-Chu-Dev.github.io/assets/python2a.JPG") {
         document.getElementById("pyImg").src = "assets/python2b.JPG";
     }
-    else {
-        document.getElementById("pyImg").src = "assets/python1a.JPG";
-        console.log("else");
-    }
+    
 }
 
 function carosuel1L(){
