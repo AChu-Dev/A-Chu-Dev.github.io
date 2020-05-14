@@ -219,12 +219,17 @@ input[type="submit"]{
   #user_form_border{
       margin-left: 0;
       margin-right: 0;
-      padding-bottom:82%;
-      padding-top:2%;
+      padding-bottom:  1%;
+      padding-top:1%;
   }
   #survey-form, input[type="text"],input[type="email"],input[type="tel"]{
     font-size: 1em;
     width : 99%;
     float:left;
   }
+  #contactBut_Border{
+    padding-bottom:82%;
+    padding-top:2%;
+  }
+
 }
