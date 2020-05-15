@@ -79,6 +79,10 @@ nav ul li {
   padding: 2%;
 }
 
+.dropdown:hover .dropdown-items {
+  display: block;
+}
+
 a {
   color: var(--secondary-txt);
   font-weight: bolder;
@@ -98,7 +102,7 @@ a {
 }
 
 .contactBut img {
-  width: 5vw;
+  width: 5vh;
   height: auto;
   margin-left: 1%;
   border-radius: 10%;
