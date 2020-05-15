@@ -57,10 +57,8 @@ function checkInput(){
     var email = document.forms["survey-form"]["email"].value;
     var number = document.forms["survey-form"]["ph_number"].value;
     var comment = document.getElementById("comment_textbox").value;
-    console.log(name)
-    console.log(email)
-    console.log(number)
-    console.log(comment)   
+    var opt_in = document.getElementById("opt_in").value;
+
     if(name == ""){
         alert("Name Cannot Be Blank");
         return false;
@@ -75,6 +73,10 @@ function checkInput(){
     }
     if(comment == ""){
         alert("Comment cannot be blank");
-        return false
+        return false;
+    }
+    if(opt_in == ""){
+        alert("You Have Not Opted In");
+        return false;
     }
 }
