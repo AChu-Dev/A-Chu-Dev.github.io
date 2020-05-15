@@ -79,8 +79,12 @@ nav ul li {
   padding: 2%;
 }
 
-.dropdown:hover .dropdown-items {
+.drop_Btn:hover .dropdown-items {
   display: block;
+}
+
+.dropdown-items a{
+  display:block;
 }
 
 a {
