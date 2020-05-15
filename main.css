@@ -110,7 +110,7 @@ a {
 
 #linkedinLogo {
   width: 5vw;
-  height: 17.5vh;
+  height: auto;
 }
 
 .border_div {
