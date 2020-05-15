@@ -100,7 +100,7 @@ a {
 .contactBut img {
   width: 5vw;
   height: auto;
-  margin: 0;
+  margin-left: 1%;
   border-radius: 10%;
   border: var(--secondary-d) 1px;
   background-color: var(--secondary-l);
@@ -110,7 +110,7 @@ a {
 
 #linkedinLogo{
   width: 5vw;
-  height:8vh;
+  height:17.5vh;
 }
 
 .border_div {
