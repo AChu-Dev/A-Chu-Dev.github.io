@@ -184,6 +184,9 @@ input[type="submit"] {
 }
 
 @media (max-width: 540px) {
+  #section1{
+    margin-top: 15%;
+  }
   body {
     font-size: 1.2em;
   }
