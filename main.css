@@ -245,16 +245,16 @@ input[type="submit"] {
     float: left;
   }
   #contactBut_Border {
-    padding-bottom: 82%;
+    padding-bottom: 87%;
     padding-top: 2%;
   }
   nav a {
     font-size: 1em;
   }
   #linkedinLogo {
-    width: auto;
-    height: 5vh;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
   }
 }
