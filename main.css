@@ -172,6 +172,10 @@ input[type="submit"]{
     font-size: 1.3em;
 }
 
+#links{
+  color: var(--secondary-l);
+}
+
 @media (max-width: 540px) {
   body {
     font-size: 1.2em;
