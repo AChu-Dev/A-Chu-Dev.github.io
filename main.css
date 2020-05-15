@@ -101,11 +101,16 @@ a {
   width: 5vw;
   height: auto;
   margin: 0;
-  border-radius: 50%;
+  border-radius: 10%;
   border: var(--secondary-d) 1px;
   background-color: var(--secondary-l);
   padding: 1vw;
   float: left;
+}
+
+#linkedinLogo{
+  width: 5%;
+  height:8%
 }
 
 .border_div {
