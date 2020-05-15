@@ -85,8 +85,8 @@ a {
 }
 
 .contactBut {
-  margin-left: 35vw;
-  margin-right: 35vw;
+  margin-left: 33vw;
+  margin-right: 33vw;
   display: block;
   align-self: center;
 }
@@ -172,7 +172,7 @@ input[type="submit"]{
     font-size: 1.3em;
 }
 
-#links{
+#links a{
   color: var(--secondary-l);
 }
 
