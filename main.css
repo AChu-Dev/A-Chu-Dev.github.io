@@ -79,19 +79,6 @@ nav ul li {
   padding: 2%;
 }
 
-.dropdown-items{
-  visibility: hidden;
-}
-
-.drop_Btn:hover .dropdown-items {
-  display: block;
-  visibility: visible;
-}
-
-.dropdown-items a{
-  display:block;
-}
-
 a {
   color: var(--secondary-txt);
   font-weight: bolder;
