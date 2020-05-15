@@ -185,7 +185,7 @@ input[type="submit"] {
 
 @media (max-width: 540px) {
   #section1{
-    margin-top: 15%;
+    margin-top: 21%;
   }
   body {
     font-size: 1.2em;
@@ -218,7 +218,7 @@ input[type="submit"] {
   nav ul {
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 1%;
   }
   #nextBtn {
     margin-left: 0;
