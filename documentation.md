@@ -37,11 +37,23 @@ I am using the W3C validation tool for VSCode which 'Lints' (cross-references) t
 ## GDPR
 In acordance with the General Data Protection Regulation there will be a created privacy policy which will explain exactly what is being recorded by the website and why it has been recorded. This is important as it legally binding for any website which takes any information to the user. Also I have made any forms on the website use opt-in meaning that the user has given confirmation that the data has not been in anyway taken without consent.
 
+On the Privacy Policy I have recorded:
+1. Information Being Recorded
+2. How long kept data is stored
+3. The useage of taken data
+4. The useage of Cookies
+5. Any Linked Websites
+
 ## Copyright and Creative Commons
 For any project where I have used external files like sound clips or sprites, I have added in the attribution to the original producer this includes using brand logos like Twitter or LinkedIn® who according to there brand guidelines have restrictions on colour and size. For example Twitter state that their logo has to be Blue or White depending on the background, also each Logo is from their websites under a non-profit creative commons license.
 
 ## Online and Distance Selling Act
-As this website is not an e-commerse or a software selling site and is purely for a non-profit purpose of self-promotion it does not require to conform to this act.
+As this website is not an e-commerse or a software selling site and is purely for a non-profit purpose of self-promotion it conforms to this act.
 
 ## Evaluation
-I have moderately achieved the problem that I have of self-promotion as it reqiures 
+I have moderately achieved the problem that I have of self-promotion as it fills in the easy access to a Portfolio of my work, but seeing as the subject matter is fairly basic it needs constant update and refinement. The few issues it has are the lack of any Server Side Programming (SSP) inside of the web application itself, and the lack for Asynchronous JavaScript And XML (AJAX) as for example the User Comments form could benefit from AJAX and SSP where it does not load a new page using PHP as a response for a POST request. And records the response inside of a Web Hosted Database this is important as most consumer grade products use SSP and the lack of an example detracts from the portfolio.
+
+When Testing the website I used the GitPages subset of GitHub to host the website Live on the internet so that it could be Tested on:
+1. A Mobile Phone in this case a  Samsung Galaxy A51
+2. A Desktop PC inside of the Firefox Browser (Windows)
+3. A Raspberry Pi running a common Linux Distro (Raspbian)
