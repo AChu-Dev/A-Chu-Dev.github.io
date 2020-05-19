@@ -8,10 +8,10 @@ I would like to create a website which is mobile first mainly due to the decline
 ## Wire Frames
 The mobile first aspect of my Website is that it follows an all-on-one page style which emphasises scrolling, when running in desktop mode the navigation bar does not stay fixed with the content whereas on mobile it becomes fixed.  This is also true for the Social Media Links where they change orientation based on the device your using as larger icons is better for touch screens.
 ### Desktop Wire Frames
-![Wireframe 1](assets/wireframe1.jpg)
-![Wireframe 2](assets/wireframe2.jpg)
+![Wireframe 1](assets/wireframe1.JPG)
+![Wireframe 2](assets/wireframe2.JPG)
 ### Mobile Wire Frames
-![Wireframe 3](assets/wireframe3.jpg)
+![Wireframe 3](assets/wireframe3.JPG)
 
 ## Colour Choices
 I am using 2 colours for this project with 2 additional shades each in the format of primary/secondary colour with light and dark. These also have a text colour of white and black respectively. To get these colours I used this colour picker:
